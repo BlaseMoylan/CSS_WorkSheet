@@ -1,0 +1,146 @@
+
+/* This will apply all included styles to the header element */
+header{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(103, 107, 126);;
+}
+
+/* This will apply all included styles to any element which uses the "logo" class*/
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -75px;
+}
+
+/* This will apply any included styles to the body element */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(206, 206, 209);;
+}
+
+/* Create your own classes below! */
+nav > ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    display: block;
+    color: rgba(14, 65, 233, 0.952);
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: rgb(32, 29, 29);
+}
+.text-box{
+    text-align: justify;
+    width: 400px;
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px ;
+    border-color: rgb(0, 64, 201);
+}
+.colors-2{
+    background-color: rgb(232,232,236);
+}
+.color{
+    background-color: rgb(232,232,236);
+    -webkit-filter: invert(100%);
+    filter: invert(100%)
+}
+.container{
+    flex-direction: row;
+    display: flex;
+    margin:auto;
+    justify-content: space-evenly;
+}
+.container >p a{
+    display: block;
+    color: rgba(14, 65, 233, 0.952);
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+.container2{
+    flex-direction: row;
+    display: flex;
+    margin:auto;
+    justify-content: space-evenly;
+
+}
+.container2 >p a{
+    display: block;
+    color: rgba(14, 65, 233, 0.952);
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+.container3{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.container3 >a{ 
+    display: block;
+    color: rgba(14, 65, 233, 0.952);
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+.container4{
+    flex-direction: column;
+    display: flex;
+}
+.container4>p{
+    margin: 20px;
+    width:space-evenly;
+    
+}
+.container4 >p a{
+    display: block;
+    color: rgba(14, 65, 233, 0.952);
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+.type1{
+    height: 100vh;
+    width:100%;
+    background-color: rgb(232,232,236);
+}
+.type2{
+    height: 100vh;
+    width:100%;
+    background-color: rgb(232,232,236);
+    -webkit-filter: invert(100%);
+    filter: invert(100%)
+}
+.ex1{
+    height: 100vh;
+    width:100%;
+    background:url("../images/coffee.jpg");
+}
+.ex3{
+    /* height: 100vh;
+    width:100%; */
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/coffee.jpg");
+    background-size: cover;
+}
+
